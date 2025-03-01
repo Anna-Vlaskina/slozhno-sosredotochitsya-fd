@@ -4,7 +4,6 @@
   flex-direction: column;
   gap: 40px;
   inline-size: 23.44rem;
-  padding: 0 10px;
   color: var(--text-color, #F1B2CE);
   font-family: var(--fonts, 'IBM Plex mono', Arial, sans-serif);
   font-size: 18px;
@@ -22,6 +21,7 @@
   grid-template-rows: auto 1fr 1fr 1fr auto;
   position: relative;
   block-size: clamp(668px, 100vh, 41.75rem);
+  padding: 0 10px;
 }
 
 .decorated-zone::before {
@@ -47,7 +47,7 @@
 .decoration {
   color: var(--accent-color, #FF0070);
   position: absolute;
-  inset-inline: auto 30px;
+  inset-inline: auto 40px;
   inset-block: 10px auto;
 }
 
@@ -131,6 +131,7 @@
   grid-template-rows: repeat(4, auto);
   grid-template-columns: 1fr;
   gap: 50px;
+  padding: 0 10px;
 }
 
 .main-section {
@@ -171,6 +172,7 @@
   place-items: center;
   position: relative;
   block-size: clamp(668px, 100vh, 668px);
+  padding: 0 10px;
 }
 
 .link {
@@ -192,11 +194,11 @@
   .page {
     gap: 60px;
     inline-size: 48rem;
-    padding: 0 20px;
   }
 
   .header {
     block-size: clamp(1024px, 100vh, 64rem);
+    padding: 0 20px;
   }
 
   .decorated-zone::before {
@@ -212,7 +214,7 @@
   .decoration {
     color: var(--accent-color, #FF0070);
     position: absolute;
-    inset-inline: auto 30px;
+    inset-inline: auto 50px;
     inset-block: 20px auto;
   }
     
@@ -227,7 +229,7 @@
   }
     
   .header__subtitle {
-    inline-size: 47.5vw;
+    inline-size: 47vw;
     align-self: start;
     justify-self: end;
     padding-block-start: 56px;
@@ -235,6 +237,7 @@
   
   .main {
     gap: 80px;
+    padding: 0 20px;
   }
 
   .section__title__adaptive {
@@ -290,6 +293,7 @@
 
   .footer {
     block-size: clamp(1024px, 100vh, 64rem);
+    padding: 0 20px;
   }
 
   .heading_footer {
